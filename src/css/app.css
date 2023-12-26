@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Pacifico&display=swap');
+
+:root {
+    --background: 240 10% 3.9%;
+    --panel-width: var(--f7-panel-left-width, var(--f7-panel-width));
+    --font-size: 0.8rem;
+}
+
+body {
+    user-select: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-grid {
+    display: grid !important;
+}
+
+.signature {
+    font-family: 'Pacifico', cursive;
+}
+
+.calendar .calendar-day-disabled {
+    color: #7e7272;
+}
+
+.signature {
+    font-size: var(--font-size);
+    margin-top: -0.8rem;
+    text-align: left;
+}
